@@ -40,6 +40,6 @@ document.write(bk);
 
 
 //Grade Generator
-var score = 2;
-var grade = ((score<60) ? "F": ((score<70) ? "D" :((score<80)? "C": ((score<90? "B" : "A"))))  );
+var score = 95;
+var grade = ((score<60) ? "F": ((score<70) ? "D" :((score<80)? "C": ((score<90? "B" : ((score<100 ? "A" : "A+"))))))  );
 document.write(grade);
