@@ -22,3 +22,23 @@ Operator    Description                  Example
 when using operators, be sure that the arguments are of the same data type; numbers should be
 compared with numbers, strings with strings and so on..
  */
+
+var bk = "<br  />";
+document.write(bk);
+
+var a = "ten";
+document.write(a === "ten");
+
+var bk = "<br  />";
+document.write(bk);
+
+var b = "8";
+document.write(b >= 6);
+
+var bk = "<br  />";
+document.write(bk);
+
+var c = "10";
+document.write(c != 10);
+
+
