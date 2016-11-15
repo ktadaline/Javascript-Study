@@ -29,5 +29,9 @@ for(i=4; i<8; i++){
         continue;
     }
     sum +=i;
+    document.write(sum);
 }
+
 document.write(sum);
+
+
