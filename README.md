@@ -9,7 +9,8 @@ The if Statement, The if else statement, The if else if statement, the switch St
 Functions:
 User-Defined Functions, Function Parameters, Using Multiple Parameters with Functions, The return Statement, Alert Prompt Confirm
 
-Objects
+Objects:
+Introducing Objects, Creating Your Own Objects, Object Initialization, Adding Methods
 
 Core Objects
 
