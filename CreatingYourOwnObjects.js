@@ -28,3 +28,21 @@ var personB = new person("Tim", "1991", "black");
 document.write(personB.hairColor);
 document.write(personA.birthYear);
 document.write(personA.name);
+
+function animal (species, color) {
+    this.species=species;
+    this.color=color;
+}
+var Billy = new animal ("Dog", "Blue");
+var BooBoo = new animal("Bunny","Pink");
+
+document.write(BooBoo.color);
+/*
+Access the object's properties by using the dot syntax, as you did before
+
+Object's Name    Property's Name
+Billy            species
+Billy            color
+BooBoo           species
+BooBoo           color
+ */
