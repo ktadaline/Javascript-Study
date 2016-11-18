@@ -58,3 +58,19 @@ write-method
 
 methods are stored as object properties
  */
+var object1 = {
+    property1: "propertyValueRandom", property2: "propertyValueBlah",
+    property3: "propertyValueAnything", property4: "propertyValueSomething"
+};
+
+var callObjectProperty1Value = object1.property1;
+var callObjectProperty2Value = object1.property2;
+
+document.write(callObjectProperty1Value);
+document.write(object1.property3);
+
+//an object method contains a function definition
+ objectName.methodName()
+//methods are functions stored as object properties
+
+

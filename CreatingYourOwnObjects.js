@@ -46,3 +46,16 @@ Billy            color
 BooBoo           species
 BooBoo           color
  */
+function objectType(property1, property2, property3){
+    this.property1 = property1;
+    this.property2 = property2;
+    this.property3 = property3;
+}
+
+var object1 = new objectType("property1traitA","property2traitA","property3traitA");
+var object2 = new objectType("property1traitB", "property2traitB","property3traitB");
+
+document.write(object1.property1);
+document.write(object2.property2);
+
+
