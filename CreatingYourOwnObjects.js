@@ -1,13 +1,22 @@
 /*
 In the previous lesson we created an object using the object literal (or initializer) syntax.
 */
-/*
-var puppy ={
 
-    breed: "pug", birthYear: 2000; color: "fawn",
+var puppy ={
+    breed: "pug",
+    birthYear: 2000,
+    color: "fawn",
 };
 
-*/
+var dog = {};
+
+dog.breed88 = "pomsky";
+dog.birthYear = 1999;
+dog.color = "silver";
+
+document.write(dog.breed88);
+
+
 /*
 This allows you to create only a single object. Sometimes we need to set an "object type" that can be used to create
 a number of objects of a single type.
