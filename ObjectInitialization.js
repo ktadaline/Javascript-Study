@@ -1,0 +1,4 @@
+/* Object Initialization
+
+Use the object literal or initializer syntax to create single objects
+ */

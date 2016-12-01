@@ -46,7 +46,9 @@ document.write(ageIs);
 var girl = { nickname:"babydoll",luckynumber:28};
 document.write(girl.nickname.length);
 
-/*an object method is a property that contains a function definition. Use the following syntax to access an
+/*
+OBJECT METHOD
+an object method is a property that contains a function definition. Use the following syntax to access an
 object method.
 
 objectName.methodName()

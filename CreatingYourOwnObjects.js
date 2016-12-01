@@ -12,6 +12,9 @@ var puppy ={
 This allows you to create only a single object. Sometimes we need to set an "object type" that can be used to create
 a number of objects of a single type.
 The standard way to create an "object type" is to use an object constructor function
+
+Create an OBJECT TYPE
+using an OBJECT CONSTRUCTOR FUNCTION
  */
 
 function person(name, birthYear, hairColor){
