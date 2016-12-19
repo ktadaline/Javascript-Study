@@ -33,3 +33,28 @@ bubba.changeName("Charles");
 
 console.log(bubba);
 document.write(bubba.name);
+
+// you can also define the function outside the constructor function and associate it with the object
+
+function person(haircolor, age) {
+    this.haircolor = haircolor;
+    this.age = age;
+    this.yearOfBirth = function () {
+        return 2016 - this.age;
+    };
+}
+
+var mindy = new person("purple", 28);
+
+var ageInput = 5;
+var hairInput = "blonde";
+
+var user = new person(hairInput, ageInput);
+var allUsers = [user, mindy];
+for (var i=0; i < allUsers.length; i++) {
+    var p = allUsers[i];
+    var yearOfBirth = p.yearOfBirth();
+    console.log(yearOfBirth)
+}
+var mindyYearOfBirth = mindy.yearOfBirth();
+console.log(mindyYearOfBirth);
