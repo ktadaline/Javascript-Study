@@ -58,3 +58,22 @@ for (var i=0; i < allUsers.length; i++) {
 }
 var mindyYearOfBirth = mindy.yearOfBirth();
 console.log(mindyYearOfBirth);
+
+function dog(breed, dogage){
+    this.breed = breed;
+    this.dogage = dogage;
+    this.yearOfDogBirth = dogBornYear;
+}
+function dogBornYear(){
+    return 2016 - this.dogage;
+}
+
+var sparky =  new dog("poodle", 7);
+document.write(sparky.yearOfDogBirth());
+
+var sparkyYearOfDogBirth = sparky.yearOfDogBirth();
+document.write(sparkyYearOfDogBirth);
+
+
+
+
