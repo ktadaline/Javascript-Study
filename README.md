@@ -12,6 +12,9 @@ User-Defined Functions, Function Parameters, Using Multiple Parameters with Func
 Objects:
 Introducing Objects, Creating Your Own Objects, Object Initialization, Adding Methods
 
-Core Objects
+Core Objects:
+Arrays, Other Ways to Create Objects, Array Properties & Methods, Associative Arrays, The Math Object, The Date Object
 
 DOM & Events
+What is DOM?, Selecting Elements, Changing Elements, Adding & Removing Elements, Creating Animations, Handling Events, Event Propagation,
+Creating an Image Slider, Form Validation
